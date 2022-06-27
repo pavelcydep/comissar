@@ -1,0 +1,366 @@
+.reviews {
+  display: block;
+  margin-top: 250px;
+}
+.reviews__title {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  color: #fffcf6;
+  margin-right: 8vw;
+}
+.reviews__container-text {
+  display: flex;
+  width: 80px;
+  margin-left: 18.8vw;
+  margin-right: auto;
+}
+.reviews__container-review {
+  width: 32vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.reviews__image {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  border-radius: 50%;
+}
+
+.reviews__text1 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3vw;
+  line-height: 30px;
+  text-align: center;
+  color: #fffcf6;
+}
+
+.reviews__text2 {
+  width: 26vw;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 18px;
+  color: #fffcf6;
+  text-align: left;
+  margin-left: 14vw;
+}
+.reviews__container-image {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 18.8vw;
+  margin-right: auto;
+  margin-top: 114px;
+}
+.reviews__card-image {
+  width: 13vw;
+  height: auto;
+  display: flex;
+  background: #0e0e0d;
+  margin-right: 2.6vw;
+  border-radius: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.reviews__card-image:hover {
+  opacity: 2;
+}
+.reviews__card-image_end {
+  margin-right: 0;
+}
+.reviews__card-image_big {
+  width: 14.5vw;
+}
+.reviews__foto {
+  width: 5.2vw;
+  height: auto;
+}
+.reviews__card-title {
+  margin-left: 1.3vw;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 22px;
+  text-align: center;
+  color: #fffcf6;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.reviews__container-image-mobile {
+    display: none;
+}
+@media screen and (max-width: 1440px) {
+  .reviews__image {
+    width: 7.2vw;
+  }
+}
+@media screen and (max-width: 768px) {
+    .attention__image-text {
+      display: none;
+    }
+    .reviews__container-image {
+      display: none;
+    }
+    .reviews__container-image-mobile {
+      width: 89.3vw;
+      display: flex;
+      overflow: auto;
+      flex-direction: row;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 60px;
+      flex-wrap: nowrap;
+    }
+    .reviews__container-text-mobile {
+      width: 89.3vw;
+      display: flex;
+      overflow: auto;
+      flex-direction: row;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .reviews__card-image {
+      width: 64vw;
+      height: auto;
+      display: flex;
+      background: #0e0e0d;
+      margin-right: 2.6vw;
+      border-radius: 20px;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+    .reviews {
+      display: block;
+      margin-top: 100px;
+    }
+    .reviews__title {
+      font-family: "Montserrat Alternates";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 8vw;
+      line-height: 37px;
+    }
+    .reviews__container-text {
+      display: flex;
+      flex-direction: column;
+      width: 89.3vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .reviews__container-review {
+      width: 32vw;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .reviews__text1 {
+      font-family: "Montserrat Alternates";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 5.3vw;
+      line-height: 30px;
+      text-align: center;
+      color: #fffcf6;
+    }
+  
+    .reviews__text2 {
+      width: 89.3vw;
+      font-family: "Montserrat Alternates";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3.7vw;
+      line-height: inherit;
+      color: #fffcf6;
+      text-align: left;
+      margin-top: 150px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .reviews__image {
+      position: absolute;
+      width: 32vw;
+      height: 32vw;
+      top: 20px;
+      left: 50vw;
+      border-radius: 50%;
+    }
+  
+    .reviews__foto {
+      width: 21vw;
+      height: auto;
+    }
+    .reviews__card-title {
+      margin-left: 5.8vw;
+  
+      font-family: "Montserrat Alternates";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 4.2vw;
+      line-height: 22px;
+      text-align: center;
+      color: #fffcf6;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .reviews__text-bottom {
+      font-family: "Montserrat Alternates";
+      min-width: 110.2vw;
+      display: flex;
+      flex-wrap: no-wrap;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 49px;
+      color: #fffcf6;
+      opacity: 0.1;
+    }
+  
+    .reviews__text-bottom_border {
+      font-family: "Montserrat Alternates";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 49px;
+      opacity: 0.3;
+    }
+  }
+  
+@media screen and (max-width: 375px) {
+  .attention__image-text {
+    display: none;
+  }
+  .reviews__container-image {
+    display: none;
+  }
+  .reviews__container-image-mobile {
+    width: 89.3vw;
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    flex-wrap: nowrap;
+  }
+  .reviews__container-text-mobile {
+    width: 89.3vw;
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reviews__card-image {
+    width: 64vw;
+    height: auto;
+    display: flex;
+    background: #0e0e0d;
+    margin-right: 2.6vw;
+    border-radius: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .reviews {
+    display: block;
+    margin-top: 100px;
+  }
+  .reviews__title {
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8vw;
+    line-height: 37px;
+  }
+  .reviews__container-text {
+    display: flex;
+    flex-direction: column;
+    width: 89.3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reviews__container-review {
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .reviews__text1 {
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.3vw;
+    line-height: 30px;
+    text-align: center;
+    color: #fffcf6;
+  }
+
+  .reviews__text2 {
+    width: 89.3vw;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.7vw;
+    line-height: 18px;
+    color: #fffcf6;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reviews__image {
+    position: absolute;
+    width: 32vw;
+    height: 32vw;
+    top: 20px;
+    left: 50vw;
+    border-radius: 50%;
+  }
+
+  .reviews__foto {
+    width: 21vw;
+    height: auto;
+  }
+  .reviews__card-title {
+    margin-left: 5.8vw;
+
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.2vw;
+    line-height: 22px;
+    text-align: center;
+    color: #fffcf6;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .reviews__text-bottom {
+    font-family: "Montserrat Alternates";
+    min-width: 110.2vw;
+    display: flex;
+    flex-wrap: no-wrap;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    color: #fffcf6;
+    opacity: 0.1;
+  }
+
+  .reviews__text-bottom_border {
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    opacity: 0.3;
+  }
+}

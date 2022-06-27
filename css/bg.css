@@ -1,0 +1,208 @@
+.bg {
+  display: flex;
+  flex-direction: column;
+  mix-blend-mode: hue;
+  width: 100vw;
+  height: 56vw;
+  position: relative;
+  background: #000000;
+  overflow: hidden;
+}
+.img {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 30.44%,
+      rgba(0, 0, 0, 0.335) 100%
+    ),
+    url("../image/bg404.svg");
+  position: absolute;
+  width: 100vw;
+  height: 56vw;
+
+  top: 0;
+  left: 0;
+  opacity: 0.29;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.line {
+  position: relative;
+  display: flex;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transform: skewY(152deg);
+  width: 100vw;
+  height: 15.6vw;
+  background: #b23024;
+}
+.line2 {
+  z-index: -1;
+  position: relative;
+  display: flex;
+  position: absolute;
+  top: 26vw;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transform: skewY(-152deg);
+  width: 100vw;
+  height: 15.6vw;
+  background: #b23024;
+  opacity: 0.25;
+}
+.line-text {
+  position: absolute;
+  transform: skewY(25deg);
+  top: -10.2vw;
+  width: 100%;
+}
+.bg__title {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2vw;
+  line-height: 49px;
+  width: 25vw;
+  margin-top: 27.8vw;
+  margin-left: 47.3vw;
+  color: #ffffff;
+}
+.bg__button {
+  width: 14.5vw;
+  height: 3.6vw;
+
+  background: #f74c3c;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 47.3vw;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3vw;
+  line-height: 30px;
+  text-align: center;
+  color: #fffcf6;
+}
+.text__button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3vw;
+  line-height: 30px;
+  text-align: center;
+  color: #fffcf6;
+}
+@media screen and (max-width: 375px) {
+  .bg {
+    display: flex;
+    flex-direction: column;
+    mix-blend-mode: hue;
+    width: 100vw;
+    height: 156vw;
+    position: relative;
+    background: #000000;
+    overflow: hidden;
+  }
+  .img {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 30.44%,
+        rgba(0, 0, 0, 0.335) 100%
+      ),
+      url("../image/Rectangle996.svg");
+    position: absolute;
+    width: 100vw;
+    height: 156vw;
+    background-size: cover;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    opacity: 0.29;
+
+    overflow: hidden;
+  }
+  .line2 {
+    z-index: -1;
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 70vw;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: skewY(-152deg);
+    width: 100vw;
+    height: 15.6vw;
+    background: #b23024;
+    opacity: 0.25;
+  }
+  .line {
+    position: relative;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: skewY(152deg);
+    width: 100vw;
+    height: 15.6vw;
+    background: #b23024;
+  }
+  .bg__title {
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8vw;
+    line-height: 49px;
+    width: 90vw;
+    margin-top: 94vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+  }
+  .bg__button {
+    width: 90vw;
+
+    height: 21vw;
+    background: #f74c3c;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 30px;
+    text-align: center;
+    color: #fffcf6;
+  }
+  .text__button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.4vw;
+    line-height: 30px;
+    text-align: center;
+    color: #fffcf6;
+  }
+}

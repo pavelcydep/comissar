@@ -1,0 +1,135 @@
+.header {
+  display: block;
+  margin-bottom: 125px;
+}
+.header__bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: auto;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 252, 246, 0) 0%,
+    rgba(255, 252, 246, 0.86) 58.49%,
+    #fffcf6 100%
+  );
+  opacity: 0.8;
+}
+.header__info {
+  display: flex;
+  flex-direction: row;
+}
+.nav__text-mobile {
+  display: none;
+}
+.header__logo {
+  position: absolute;
+  width: 8.7vw;
+  height: auto;
+  left: 16vw;
+  top: 21.75px;
+}
+.info__containers {
+  margin-left: 35vw;
+  margin-right: 30vw;
+  margin-bottom: 44px;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.info__container {
+  display: flex;
+  width: 14vwаааf;
+}
+.info__text {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.78vw;
+  line-height: 18px;
+  opacity: 0.2;
+}
+.info__text_left {
+  margin-right: o.72vw;
+}
+.info__icon {
+  margin-right: 0.5vw;
+}
+
+
+@media screen and (max-width: 768px) {
+  .info__containers {
+    display: none;
+  }
+  .header {
+    display: block;
+    margin-bottom: 0px;
+  }
+  .nav__text-mobile {
+    display: flex;
+    font-family: "Montserrat Alternates bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 30px;
+    color: #f74c3c;
+    margin-top: 42px;
+    margin-bottom: auto;
+    margin-right: 10vw;
+    margin-bottom: 79px;
+  }
+  .header {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.header__logo {
+  position: absolute;
+  width: 26vw;
+  height: auto;
+  left: 2vw;
+  top: 0;
+}
+.header__bg {
+  display: none;
+}
+@media screen and (max-width: 375px) {
+  .info__containers {
+    display: none;
+  }
+  .header {
+    display: block;
+    margin-bottom: 0px;
+  }
+  .nav__text-mobile {
+    display: flex;
+    font-family: "Montserrat Alternates bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 30px;
+    color: #f74c3c;
+    margin-top: 42px;
+    margin-bottom: auto;
+    margin-right: 10vw;
+    margin-bottom: 79px;
+  }
+  .header {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.header__logo {
+  position: absolute;
+  width: 26vw;
+  height: auto;
+  left: 2vw;
+  top: 0;
+}
+.header__bg {
+  display: none;
+}

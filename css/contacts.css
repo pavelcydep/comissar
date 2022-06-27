@@ -1,0 +1,90 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-left: 47vw;
+  margin-right: auto;
+}
+.contacts__text {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 22px;
+  color: #000000;
+}
+.contacts__button {
+  width: 14.5vw;
+  height: 3.6vw;
+  background: #f74c3c;
+  border-radius: 20px;
+  border: none;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.3vw;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fffcf6;
+}
+@media screen and (max-width: 768px) {
+    .contacts {
+      margin-top: 4.8vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .contacts__text {
+      width: 44.8vw;
+      font-size: 4.2vw;
+      margin-left: 51vw;
+      line-height: inherit;
+    }
+    .contacts__button {
+      width: 89.3vw;
+      height: 18.6vw;
+      background: #f74c3c;
+      border-radius: 20px;
+      border: none;
+      font-family: "Montserrat Alternates";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 5.3vw;
+      line-height: 30px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #fffcf6;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+@media screen and (max-width: 375px) {
+  .contacts {
+    margin-top: 4.8vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacts__text {
+    width: 44.8vw;
+    font-size: 4.2vw;
+    margin-left: 51vw;
+  }
+  .contacts__button {
+    width: 89.3vw;
+    height: 18.6vw;
+    background: #f74c3c;
+    border-radius: 20px;
+    border: none;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5.3vw;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fffcf6;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

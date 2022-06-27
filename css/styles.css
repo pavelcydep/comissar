@@ -1,0 +1,28 @@
+@import url('./header.css');
+@import url('./nav.css');
+@import url('./promo.css');
+@import url('./services.css');
+@import url('./advantages.css');
+@import url('./work.css');
+@import url('./application.css');
+@import url('./attention.css');
+@import url('./reviews.css');
+@import url('./contacts.css');
+@import url('./footer.css');
+@import url('./bg.css');
+  @font-face {
+    font-family: 'Montserrat Alternates';
+    src: local('Montserrat Alternates'),
+         url('../vendor/font/MontserratAlternates-Bold.ttf');
+      
+  }
+  @font-face {
+    font-family: 'Montserrat Alternates bold';
+    src: local('Montserrat Alternates'),
+         url('../vendor/font/MontserratAlternates-Bold.ttf');
+      
+  }
+.body{
+    display: block;
+    position: relative;
+}

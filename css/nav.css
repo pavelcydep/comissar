@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.nav__text {
+  font-family: "Montserrat Alternates bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.3vw;
+  line-height: 30px;
+  color: #f74c3c;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav__list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.list__item {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 22px;
+  color: #000000;
+  margin-right: 1vw;
+}
+
+.list__item:last-child {
+  margin-right: 0px;
+}

@@ -1,0 +1,532 @@
+.services {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.services__text-mobile {
+  display: none;
+}
+.services__bg {
+  display: none;
+}
+.services__img {
+  display: block;
+  position: absolute;
+  bottom: 1vw;
+  right: 1vw;
+  width: 1.5vw;
+  height: 1.5vh;
+}
+.services__img-mobile {
+  display: none;
+}
+.services__container-cards {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-bottom: 45px;
+}
+.services__container-cards2 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-bottom: 45px;
+  display: flex;
+}
+.services__card-title {
+  font-family: "Montserrat Alternates bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2vw;
+  line-height: 49px;
+  color: #000000;
+  margin-right: 5vw;
+}
+
+.services__card {
+  width: 23vw;
+  height: 240px;
+  border-radius: 30px;
+  background-image: url("../image/Rectangle55.svg");
+  background-size: cover;
+  margin-right: 2vw;
+  position: relative;
+}
+.services__card-bottom {
+  width: 19vw;
+  height: 240px;
+  border-radius: 30px;
+  background-image: url("../image/Rectangle61.svg");
+  position: relative;
+}
+.services__card2 {
+  position: relative;
+  width: 23vw;
+  height: 240px;
+  background: #dad7d7;
+  border-radius: 30px;
+  background-size: cover;
+}
+.services__card3 {
+  position: relative;
+  width: 23vw;
+  height: 240px;
+  background: #dad7d7;
+  border-radius: 30px;
+}
+
+.services__card4 {
+  position: relative;
+  width: 23vw;
+  height: 240px;
+  background: #dad7d7;
+  border-radius: 30px;
+}
+
+.services__card2_margin {
+  margin-right: 2vw;
+  width: 19vw;
+}
+
+.services__text {
+  width: 15vw;
+  font-family: "Montserrat Alternates bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1vw;
+  line-height: 22px;
+  color: #fffcf6;
+  margin-left: 1vw;
+  margin-right: auto;
+}
+.services__text_black {
+  width: 17vw;
+  color: #000000;
+}
+.advantages__title {
+  font-family: "Montserrat Alternates bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2vw;
+  margin-left: 2.6vw;
+  line-height: 49px;
+  color: #ffffff;
+}
+.services__card3-mobile {
+  display: none;
+}
+.services__card-mobile {
+  display: none;
+}
+.services__title-mobile {
+  display: none;
+}
+.services__card4-mobile {
+  display: none;
+}
+.services__card5-mobile {
+  display: none;
+}
+@media screen and (max-width: 375px) {
+  .services {
+    margin-top: 26.6vw;
+  }
+  .services__container-cards {
+    width: 89vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+  .services__card-title {
+    font-family: "Montserrat Alternates bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8vw;
+    line-height: 49px;
+    color: #000000;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .services__card {
+    width: 89vw;
+    height: 47vw;
+    border-radius: 30px;
+    background-image: url("../image/Rectangle55.svg");
+    margin-right: 2vw;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .services__card2 {
+    width: 89vw;
+    height: 47vw;
+    border-radius: 30px;
+    background-image: url("../image/Rectangle58.svg");
+    margin-right: 2vw;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  .services__img {
+    display: none;
+  }
+  .services__bg {
+    width: 48vw;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.1;
+  }
+  .services__img-mobile {
+    display: block;
+    position: absolute;
+    bottom: 1vw;
+    right: 3vw;
+    width: 8vw;
+    height: 8vh;
+    z-index: 5;
+  }
+  .services__title-mobile {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 5vw;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.2vw;
+    line-height: 20px;
+    color: #000000;
+  }
+  .services__card-mobile {
+    display: flex;
+    width: 80vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    background: rgba(237, 234, 229);
+    margin-left: 0;
+  }
+  .services__card3 {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__card3-mobile {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__card4-mobile {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__card5-mobile {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__card3-mobile {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__container-cards2 {
+    display: none;
+  }
+
+  .services__text {
+    display: none;
+  }
+
+  .services__card4-image-mobile {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(237, 234, 229, 0) 41.11%,
+        rgba(237, 234, 229, 0.7) 80.92%,
+        #edeae5 100%
+      ),
+      url(../image/Rectangle60.svg);
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+  }
+  .services__card5-image-mobile {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(237, 234, 229, 0) 41.11%,
+        rgba(237, 234, 229, 0.7) 80.92%,
+        #edeae5 100%
+      ),
+      url(../image/Rectangle61.svg);
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+  }
+  .services__card3-image-mobile {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(237, 234, 229, 0) 41.11%,
+        rgba(237, 234, 229, 0.7) 80.92%,
+        #edeae5 100%
+      ),
+      url(../image/Rectangle59.svg);
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .services__text-mobile {
+    display: flex;
+    width: 59vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fffcf6;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    margin-top: 26.6vw;
+  }
+  .services__container-cards {
+    width: 89vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+  .services__card-title {
+    font-family: "Montserrat Alternates bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8vw;
+    line-height: 49px;
+    color: #000000;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .services__card {
+    width: 89vw;
+    height: 47vw;
+    border-radius: 30px;
+    background-image: url("../image/Rectangle55.svg");
+    margin-right: 2vw;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .services__card2 {
+    width: 89vw;
+    height: 47vw;
+    border-radius: 30px;
+    background-image: url("../image/Rectangle58.svg");
+    margin-right: 2vw;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+
+  .services__img {
+    display: none;
+  }
+  .services__bg {
+    width: 48vw;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.1;
+  }
+  .services__img-mobile {
+    display: block;
+    position: absolute;
+    bottom: 1vw;
+    right: 3vw;
+    width: 8vw;
+    height: 8vh;
+    z-index: 5;
+  }
+  .services__title-mobile {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 5vw;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.2vw;
+    line-height: 20px;
+    color: #000000;
+  }
+  .services__card-mobile {
+    display: flex;
+    width: 80vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    background: rgba(237, 234, 229);
+    margin-left: 0;
+  }
+  .services__card3 {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__card3-mobile {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__card4-mobile {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__card5-mobile {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__card3-mobile {
+    display: flex;
+    flex-direction: row;
+    width: 89vw;
+    height: 120px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .services__container-cards2 {
+    display: none;
+  }
+
+  .services__text {
+    display: none;
+  }
+
+  .services__card4-image-mobile {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(237, 234, 229, 0) 41.11%,
+        rgba(237, 234, 229, 0.7) 80.92%,
+        #edeae5 100%
+      ),
+      url(../image/Rectangle60.svg);
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+  }
+  .services__card5-image-mobile {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(237, 234, 229, 0) 41.11%,
+        rgba(237, 234, 229, 0.7) 80.92%,
+        #edeae5 100%
+      ),
+      url(../image/Rectangle61.svg);
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+  }
+  .services__card3-image-mobile {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(237, 234, 229, 0) 41.11%,
+        rgba(237, 234, 229, 0.7) 80.92%,
+        #edeae5 100%
+      ),
+      url(../image/Rectangle59.svg);
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .services__text-mobile {
+    display: flex;
+    width: 59vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fffcf6;
+  }
+}

@@ -1,0 +1,333 @@
+.application {
+  display: flex;
+  flex-direction: column;
+  margin-top: 250px;
+}
+
+.application__title {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2vw;
+  line-height: 49px;
+  color: #000000;
+  margin-left: 18.75vw;
+  margin-right: auto;
+}
+
+.application__text {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 18.75vw;
+  margin-right: auto;
+}
+
+.application__form {
+  display: flex;
+  margin-left: 18.75vw;
+  margin-right: auto;
+}
+
+.form__input {
+  width: 12vw;
+  height: 3.6vw;
+  border-radius: 20px;
+  background: #dad7d7;
+  border: none;
+  padding-left: 1vw;
+  margin-right: 1.5vw;
+}
+
+.form__button {
+  width: 14.5vw;
+  height: 3.6vw;
+  border: none;
+  background: #f74c3c;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3vw;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fffcf6;
+}
+
+.form__label {
+  width: 6vw;
+  text-align: left;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.6vw;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.3;
+}
+.form__label_small {
+  width: 4vw;
+  text-align: left;
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.6vw;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.3;
+}
+.form__container {
+  width: 15.5vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1.5vw;
+}
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+
+  .custom-checkbox+label {
+    display: inline-flex;
+  
+    user-select: none;
+  }
+
+  
+  .custom-checkbox+label::before {
+    content: '';
+    display: flex;
+    width: 1em;
+    height: 1em;
+   
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+   
+  }
+
+  
+  .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+  }
+
+
+  .custom-checkbox:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+  }
+
+
+  .custom-checkbox:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  .custom-checkbox:focus:not(:checked)+label::before {
+    border-color: #80bdff;
+  }
+
+ 
+  .custom-checkbox:checked+label::before {
+    
+    background-image: url("../image/Vector76.svg");
+  }
+
+ 
+  .custom-checkbox:disabled+label::before {
+    background-color: #e9ecef;
+  }
+
+
+
+@media screen and (max-width: 768px) {
+  .application {
+    margin-top: 100px;
+  }
+  .application__title {
+    font-size: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .application__text {
+    font-size: 4.2vw;
+    margin-left: 8.5vw;
+    margin-right: auto;
+  }
+
+  .application__form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form__input {
+    width: 90%;
+    height: 18.6vw;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #dad7d7;
+    border: none;
+    padding-left: 5.3vw;
+    margin-left: 0;
+    margin-right: auto;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5vw;
+    line-height: 24px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.2;
+  }
+
+  .form__button {
+    width: 100%;
+    height: 18.6vw;
+    height: 70px;
+    border: none;
+    background: #f74c3c;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.3vw;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fffcf6;
+  }
+
+  .form__label {
+    margin-left: 2.6vw;
+    width: 36vw;
+    text-align: left;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2vw;
+    line-height: inherit;
+    color: #000000;
+    opacity: 0.3;
+  }
+  .form__label_small {
+    margin-left: 2.6vw;
+    width: 20.8vw;
+    text-align: left;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2vw;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.3;
+  }
+  .form__container {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1vw;
+  }
+}
+@media screen and (max-width: 375px) {
+  .application {
+    margin-top: 100px;
+  }
+  .application__title {
+    font-size: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .application__text {
+    font-size: 4.2vw;
+    margin-left: 8.5vw;
+    margin-right: auto;
+  }
+
+  .application__form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form__input {
+    width: 90%;
+    height: 18.6vw;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #dad7d7;
+    border: none;
+    padding-left: 5.3vw;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .form__button {
+    width: 100%;
+    height: 18.6vw;
+    height: 70px;
+    border: none;
+    background: #f74c3c;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.3vw;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fffcf6;
+  }
+
+  .form__label {
+    margin-left: 2.6vw;
+    width: 36vw;
+    text-align: left;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2vw;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.3;
+  }
+  .form__label_small {
+    margin-left: 2.6vw;
+    width: 20.8vw;
+    text-align: left;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2vw;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.3;
+  }
+  .form__container {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1vw;
+  }
+}

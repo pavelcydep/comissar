@@ -1,0 +1,224 @@
+.advantages {
+  display: flex;
+  flex-direction: column;
+}
+.advantages__card {
+  width: 15.6vw;
+  height: 15.6vw;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.advantages__card:hover {
+  border: 2px solid #7c5050;
+}
+.advantages__container {
+  width: 68vw;
+  height: 27vw;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f74c3c;
+  border-radius: 4vw;
+}
+
+.advantages__container-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantages__card-content {
+  display: flex;
+  flex-direction: row;
+  width: 7.9vw;
+  height: 122px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantages__card-number {
+  font-family: "Montserrat Alternates bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 5vw;
+  line-height: 122px;
+  color: #000000;
+}
+
+.advantages__card-text {
+  font-family: "Montserrat Alternates bold";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 80px;
+}
+
+.advantages__text-white {
+  font-family: "Montserrat Alternates bold";
+  width: 7.9vw;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1vw;
+  line-height: 22px;
+  text-align: center;
+  color: #fffcf6;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .advantages__container-cards {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      height: 121vw;
+      width: 89vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .advantages__container {
+      width: 89vw;
+      height: 151vw;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      background: #f74c3c;
+      border-radius: 4vw;
+    }
+    .advantages__card {
+      width: 66.6vw;
+      height: 15.6vw;
+      border-radius: 50%;
+      margin-bottom: 33px;
+      display: flex;
+      flex-direction: row;
+  
+      cursor: pointer;
+    }
+    .advantages__card-content {
+      display: flex;
+      flex-direction: column;
+      width: 13vw;
+      height: 122px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .advantages__card-number {
+      text-align: right;
+      font-family: "Montserrat Alternates bold";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16vw;
+      line-height: 70px;
+      color: #000000;
+    }
+  
+    .advantages__card-text {
+      font-family: "Montserrat Alternates bold";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3.7vw;
+      line-height: inherit;
+      color: #000000;
+      margin-top: 10px;
+    }
+  
+    .advantages__text-white {
+      font-family: "Montserrat Alternates bold";
+      width: 36.2vw;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 4.2vw;
+      line-height: 22px;
+      text-align: center;
+      color: #fffcf6;
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom: 1px solid #7c5050;
+    }
+  }
+  
+
+@media screen and (max-width: 375px) {
+  .advantages__container-cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 121vw;
+    width: 89vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .advantages__container {
+    width: 89vw;
+    height: 151vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f74c3c;
+    border-radius: 4vw;
+  }
+  .advantages__card {
+    width: 66.6vw;
+    height: 15.6vw;
+    border-radius: 50%;
+    margin-bottom: 33px;
+    display: flex;
+    flex-direction: row;
+
+    cursor: pointer;
+  }
+  .advantages__card-content {
+    display: flex;
+    flex-direction: column;
+    width: 13vw;
+    height: 122px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .advantages__card-number {
+    text-align: right;
+    font-family: "Montserrat Alternates bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16vw;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .advantages__card-text {
+    font-family: "Montserrat Alternates bold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.7vw;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .advantages__text-white {
+    font-family: "Montserrat Alternates bold";
+    width: 36.2vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.2vw;
+    line-height: 22px;
+    text-align: center;
+    color: #fffcf6;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #7c5050;
+  }
+}
